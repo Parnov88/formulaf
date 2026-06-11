@@ -164,7 +164,7 @@ export const content = {
 
   vturb: {
     accountId: '91783df2-d643-49c6-9e32-2e0ae77e8d82',
-    playerId: '6a28e0e6a67c9da6bf2f3fac',
+    playerId: '6a2adf77e5d8124db9713b54',
   },
 
   countdown: {
