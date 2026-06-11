@@ -33,8 +33,7 @@
     <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script" />
     <link rel="preload" href="https://cdn.converteai.net/91783df2-d643-49c6-9e32-2e0ae77e8d82/6a28e042050c2ed167b0ac60/main.m3u8" as="fetch" />
 
-    <!-- Meta Pixel Code (placeholder — descomentar e inserir [META_PIXEL_ID]) -->
-    <!--
+    <!-- Meta Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -44,16 +43,16 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '[META_PIXEL_ID]');
+    fbq('init', '1561022885420656');
     fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=[META_PIXEL_ID]&ev=PageView&noscript=1"
-    /></noscript>
-    -->
     <!-- End Meta Pixel Code -->
   </head>
   <body>
+    <!-- Meta Pixel (noscript) -->
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1561022885420656&ev=PageView&noscript=1"
+    /></noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

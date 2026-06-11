@@ -26,7 +26,7 @@ export function FinalCTA() {
         <PillButton
           icon={ShoppingBag}
           label={content.finalCta.cta}
-          href={content.finalCta.hotmartLink}
+          href={content.finalCta.checkoutLink}
           variant="success"
         />
 

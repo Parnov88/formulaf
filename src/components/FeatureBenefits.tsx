@@ -19,16 +19,6 @@ export function FeatureBenefits() {
         <h2 className="mt-5 text-3xl md:text-5xl font-semibold tracking-tight leading-[1.02]">
           {content.benefits.title}
         </h2>
-        <div className="mt-6 flex flex-wrap gap-2">
-          {content.benefits.chips.map((chip) => (
-            <span
-              key={chip}
-              className="text-xs text-white/70 px-3 py-1.5 rounded-full border border-white/10 bg-white/[0.03]"
-            >
-              {chip}
-            </span>
-          ))}
-        </div>
       </motion.div>
 
       <motion.div

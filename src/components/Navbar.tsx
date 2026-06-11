@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Menu, Play } from 'lucide-react';
+import { Play } from 'lucide-react';
 import { LogoMark } from './shared/LogoMark';
 import { PillButton } from './shared/PillButton';
 import { content } from '../data/content';
@@ -29,17 +29,8 @@ export function Navbar() {
         ))}
       </div>
 
-      <div className="flex items-center">
-        <div className="hidden md:block">
-          <PillButton icon={Play} label={content.navbar.cta} href="#player" />
-        </div>
-        <button
-          type="button"
-          aria-label="Abrir menu"
-          className="md:hidden w-10 h-10 rounded-full border border-white/10 bg-white/5 flex items-center justify-center"
-        >
-          <Menu className="w-4 h-4" />
-        </button>
+      <div className="hidden md:block">
+        <PillButton icon={Play} label={content.navbar.cta} href="#player" />
       </div>
     </motion.nav>
   );

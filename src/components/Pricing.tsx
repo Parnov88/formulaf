@@ -38,9 +38,17 @@ export function Pricing() {
       >
         <div className="c3-card c3-card-pro">
           {expired ? (
-            <div className="text-center py-10">
-              <h2 className="c3-tier-large">{content.offer.expiredTitle}</h2>
-              <p className="c3-desc mt-4">{content.offer.expiredText}</p>
+            <div className="text-center py-10 flex flex-col items-center gap-6">
+              <div>
+                <h2 className="c3-tier-large">{content.offer.expiredTitle}</h2>
+                <p className="c3-desc mt-4">{content.offer.expiredText}</p>
+              </div>
+              <PillButton
+                icon={ShoppingBag}
+                label={content.offer.expiredCta}
+                href={content.offer.checkoutLink}
+                variant="success"
+              />
             </div>
           ) : (
             <>
@@ -73,7 +81,7 @@ export function Pricing() {
               <PillButton
                 icon={ShoppingBag}
                 label={content.offer.cta}
-                href={content.offer.hotmartLink}
+                href={content.offer.checkoutLink}
                 variant="success"
                 full
               />

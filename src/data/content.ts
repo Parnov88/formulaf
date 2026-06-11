@@ -50,29 +50,12 @@ export const content = {
 
   testimonials: [
     {
-      quote: 'Tenho 29 anos. Todas as vezes que tentei algo com alguém, só ficou na conversa do WhatsApp. Nunca aceitaram meu pedido pra sair. Já tentei diversos apps mas nunca deram em nada.',
-      attribution: '— Reddit r/desabafos',
-      success: false,
-    },
-    {
-      quote: 'Estou muito frustrado com minha vida amorosa. Sinto que perdi o timing de aprender a flertar. Agora sou um adulto travado que não sabe o que falar pra uma mulher.',
-      attribution: '— Reddit r/conversas',
-      success: false,
-    },
-    {
-      quote: 'Às vezes dá vontade de sumir. Trabalho, estudo, faço tudo certo, mas chego em casa e o silêncio é ensurdecedor. Essa falta de afeto feminino tá acabando com a minha saúde mental aos poucos.',
-      attribution: '— Reddit r/desabafos',
-      success: false,
-    },
-    {
       quote: 'Eu me sinto muito mais confiante. Finalmente tenho o poder de dar a ela a conexão que ela estava esperando há tanto tempo. Estou realmente animado com o nosso futuro juntos.',
       attribution: '— Aluno da Fórmula F',
-      success: true,
     },
     {
       quote: 'Minha esposa nunca me falou desse jeito em nenhum momento nos últimos 6 anos. Muito obrigado por criar este produto e transformar o meu casamento. E você fez isso em menos de 48 horas.',
       attribution: '— Aluno da Fórmula F',
-      success: true,
     },
   ],
 
@@ -80,11 +63,6 @@ export const content = {
     eyebrow: 'Fórmula F',
     eyebrowTag: 'Método',
     title: 'O que você vai aprender',
-    chips: [
-      'Apps que não respondem',
-      'Invisible ao mundo feminino',
-      'O silêncio quando você chega em casa',
-    ],
     items: [
       'As 3 fases que guiam uma mulher da neutralidade até a atração genuína — sem forçar nada',
       'Como parar de ser o "cara legal" e começar a ser o cara que ela não consegue parar de pensar',
@@ -114,9 +92,10 @@ export const content = {
     priceLabel: 'Hoje, por apenas:',
     price: 'R$ 47,00',
     cta: 'Garantir Minha Vaga',
-    hotmartLink: '[HOTMART_LINK]',
-    expiredTitle: 'Essa oferta foi encerrada',
-    expiredText: '[PLACEHOLDER: texto sobre a oferta especial ter expirado e próximos passos para o visitante]',
+    checkoutLink: 'https://pay.cakto.com.br/ytt4m4a_922424',
+    expiredTitle: 'Esta oferta especial expirou.',
+    expiredText: 'Mas o conteúdo ainda está disponível — clique abaixo para ver as condições atuais de acesso.',
+    expiredCta: 'Ver condições atuais',
   },
 
   guarantee: {
@@ -128,27 +107,33 @@ export const content = {
   faq: [
     {
       question: 'Isso funciona para quem nunca namorou?',
-      answer: '[PLACEHOLDER: resposta sobre funcionar para quem nunca namorou]',
+      answer:
+        'Sim — e foi pensado especialmente para você. A Fórmula F não pressupõe experiência prévia. Ela começa do princípio porque foi desenvolvida observando homens que estavam exatamente onde você está agora. Alguns dos resultados mais rápidos vieram de homens que nunca tinham namorado — justamente porque não tinham hábitos errados para desfazer, só o método certo para aprender.',
     },
     {
       question: 'Funciona online, nos apps?',
-      answer: '[PLACEHOLDER: resposta sobre funcionar online e nos apps]',
+      answer:
+        'Funciona. As Três Fases se aplicam tanto no presencial quanto em texto — Tinder, Bumble, Instagram, WhatsApp. O Bônus 1 tem uma seção inteira dedicada à abertura digital com exemplos reais de primeira mensagem. E o Bônus 6 te ensina como criar tensão e conexão por texto, sem depender de tom de voz ou linguagem corporal.',
     },
     {
       question: 'É sobre técnicas de manipulação?',
-      answer: '[PLACEHOLDER: resposta sobre não ser manipulação]',
+      answer:
+        'Não. E se você está fazendo essa pergunta, provavelmente já se deparou com esse tipo de conteúdo e não se identificou — o que diz muito sobre quem você é. A Fórmula F é baseada em conexão emocional genuína. Não tem script para enganar, não tem gatilho para manipular. O que você vai aprender é como comunicar de verdade quem você já é — de uma forma que ela consiga sentir. Homens que buscam atalhos manipulativos vão se decepcionar aqui.',
     },
     {
       question: 'Quanto tempo leva pra ver resultado?',
-      answer: '[PLACEHOLDER: resposta sobre tempo de resultado]',
+      answer:
+        'Nas primeiras aplicações você já vai notar diferença na forma como as mulheres respondem — conversas que antes morriam começam a fluir, abordagens que antes travavam passam a ter retorno. Resultados consistentes aparecem entre 2 e 4 semanas de prática regular. O Capítulo 9 do guia principal tem um plano dia a dia de 30 dias exatamente para acelerar isso.',
     },
     {
       question: 'Como funciona a garantia?',
-      answer: '[PLACEHOLDER: resposta sobre a garantia de 90 dias]',
+      answer:
+        'Você tem 90 dias para aplicar o método. Se nesse período você não notar mudança real na forma como as mulheres respondem a você, manda um e-mail para o nosso suporte e devolvemos 100% do valor — sem perguntas, sem burocracia, sem precisar explicar nada. O risco é 100% nosso. Além disso, por lei (Código de Defesa do Consumidor, Art. 49), toda compra digital no Brasil tem garantia mínima de 7 dias — que já está incluída nos 90.',
     },
     {
       question: 'Como acesso o material após a compra?',
-      answer: '[PLACEHOLDER: resposta sobre acesso ao material após a compra]',
+      answer:
+        'Imediatamente após a confirmação do pagamento, você recebe um e-mail da Cakto com seu login de acesso. Todo o conteúdo fica disponível na plataforma Cakto — acessível pelo navegador no computador ou pelo celular. O acesso não expira. Você pode reler, reouvir e consultar quando quiser, para sempre.',
     },
   ],
 
@@ -156,19 +141,19 @@ export const content = {
     line1: 'Você pode continuar igual.',
     line2: 'Ou pode clicar abaixo e começar hoje.',
     cta: 'Quero a Fórmula F por R$47',
-    hotmartLink: '[HOTMART_LINK]',
+    checkoutLink: 'https://pay.cakto.com.br/ytt4m4a_922424',
     notes: [
       '⚡ Acesso imediato após a confirmação do pagamento',
-      '🔒 Compra 100% segura — Hotmart',
+      '🔒 Compra 100% segura — Cakto',
     ],
   },
 
   footer: {
     copyright: '© 2026 Fórmula F. Todos os direitos reservados.',
     links: [
-      { label: 'Termos de Uso', href: '[TERMOS_URL]' },
-      { label: 'Política de Privacidade', href: '[PRIVACIDADE_URL]' },
-      { label: 'Contato', href: 'mailto:[EMAIL_SUPORTE]' },
+      { label: 'Termos de Uso', href: '/termos.html' },
+      { label: 'Política de Privacidade', href: '/privacidade.html' },
+      { label: 'Contato', href: 'mailto:parnov8@gmail.com' },
     ],
     disclaimer: 'Este site não é afiliado ao Facebook ou Instagram.',
   },
