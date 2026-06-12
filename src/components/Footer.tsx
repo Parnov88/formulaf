@@ -15,7 +15,6 @@ export function Footer() {
           ))}
         </nav>
 
-        <p className="text-xs text-white/40 max-w-md">{content.footer.disclaimer}</p>
         <p className="text-xs text-white/40">{content.footer.copyright}</p>
       </div>
     </footer>

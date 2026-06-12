@@ -155,7 +155,6 @@ export const content = {
       { label: 'Política de Privacidade', href: '/privacidade.html' },
       { label: 'Contato', href: 'mailto:parnov8@gmail.com' },
     ],
-    disclaimer: 'Este site não é afiliado ao Facebook ou Instagram.',
   },
 
   stickyCta: {
