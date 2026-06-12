@@ -16,8 +16,8 @@ export const content = {
 
   hero: {
     eyebrow: 'Para homens que fazem tudo certo — e mesmo assim ficam invisíveis',
-    headlineLine1: 'Por que mulheres ignoram homens bons',
-    headlineLine2: 'e escolhem outros que não fazem metade do que você faz?',
+    headlineLine1: 'Mulher revela: o verdadeiro motivo pelo qual homens honestos se tornaram invisíveis nos aplicativos',
+    headlineLine2: 'e a estrutura de 3 fases para reverter isso no mundo real.',
     subheadline: 'A resposta está neste vídeo gratuito. Assista agora — antes que ele saia do ar.',
     cta: 'Assistir o vídeo agora',
   },
