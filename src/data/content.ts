@@ -16,8 +16,8 @@ export const content = {
 
   hero: {
     eyebrow: 'Para homens que fazem tudo certo — e mesmo assim ficam invisíveis',
-    headlineLine1: 'Mulher revela: o verdadeiro motivo pelo qual homens honestos se tornaram invisíveis nos aplicativos',
-    headlineLine2: 'e a estrutura de 3 fases para reverter isso no mundo real.',
+    headlineLine1: 'Como Sair da Invisibilidade Total e Virar o Tipo de Homem que as Mulheres Realmente Sentem Quando Entra no Ambiente',
+    headlineLine2: '— Sem Precisar de Shape, Carro Caro ou Táticas Manipulativas',
     subheadline: 'A resposta está neste vídeo gratuito. Assista agora — antes que ele saia do ar.',
     cta: 'Assistir o vídeo agora',
   },
@@ -27,7 +27,7 @@ export const content = {
     warning: '⚠️ Atenção: Este vídeo pode sair do ar a qualquer momento',
     note: '🔒 Assista até o final — a oferta especial aparece nos últimos minutos',
     ctaPostVideo: 'Quero Garantir Minha Vaga',
-    ctaPostVideoDelayMs: 60000,
+    ctaPostVideoDelayMs: 300000,
   },
 
   painCards: [
@@ -163,7 +163,7 @@ export const content = {
 
   vturb: {
     accountId: '91783df2-d643-49c6-9e32-2e0ae77e8d82',
-    playerId: '6a2b714276d8eed1cfea2f38',
+    playerId: '6a2c66f77f951be74ed8e34a',
   },
 
   countdown: {
